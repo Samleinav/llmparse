@@ -1,0 +1,30 @@
+{
+    "name": "llmparse",
+    "version": "0.1.0",
+    "description": "LLM Request/Response Parsing and Transformation Library",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "llm",
+        "parse",
+        "transform",
+        "openai",
+        "anthropic",
+        "gemini",
+        "openrouter"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@google/genai": "^1.33.0",
+        "openai": "^6.14.0"
+    }
+}
