@@ -4,6 +4,7 @@
     "description": "LLM Request/Response Parsing and Transformation Library",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "author": "Samuel Leiton <samuel.leiton.n@gmail.com>",
     "scripts": {
         "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +18,6 @@
         "gemini",
         "openrouter"
     ],
-    "author": "",
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^20.0.0",
