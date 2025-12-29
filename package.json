@@ -7,8 +7,20 @@
     "author": "Samuel Leiton <samuel.leiton.n@gmail.com>",
     "scripts": {
         "build": "tsc",
+        "prepublishOnly": "npm run build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Samleinav/llmparse.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Samleinav/llmparse/issues"
+    },
+    "homepage": "https://github.com/Samleinav/llmparse#readme",
     "keywords": [
         "llm",
         "parse",
